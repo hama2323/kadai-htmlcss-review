@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+
+/* チャプター：メインとサイドバー（2カラムレイアウト） */
+#wrapper {
+    width: 984px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main {
+    width: 700px;
+}
+
+#menu {
+    width: 300px;
+}
+
+header {
+    background-color: #ffcccc;
+}
+#main {
+    background-color: #ccffcc;
+}
+
+#menu {
+    background-color: #ccccff;
+}
+
+footer {
+    background-color: #ffccff;
+}
